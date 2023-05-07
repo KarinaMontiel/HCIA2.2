@@ -8,6 +8,8 @@ import Header from './components/Header';
 import ListItem from './components/ListItem';
 import AddItem from './components/AddItem';
 
+import MainContainer from './components/navigation/MainContainer';
+
 const App = () => {
   const [items, setItems] = useState([
     {
@@ -123,6 +125,7 @@ const App = () => {
           />
         )}
       />
+      <MainContainer />
     </View>
   );
 };
